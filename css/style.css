@@ -22,6 +22,9 @@ nav ol li {
     /* 顯示：行內-區塊 */
     display: inline-block;
     text-decoration: none;
+    
+    /* 間距 */
+    padding: 0 15px;
 }
 
 nav ol li a {
@@ -29,6 +32,11 @@ nav ol li a {
     
     /* 文字裝飾：無(去掉底線) */
     text-decoration: none;
+    
+    /* 高度 */
+    line-height: 60px;
+
+    font-size: 16px;
 }
 
 nav ol li a:hover {
@@ -45,3 +53,43 @@ nav ol li a:hover {
     margin-left: 10px;
 }
 
+/* 內容 */
+.content {
+    width: 900px;
+    padding: 30px 10px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    /* 顏色 */
+    color: brown;
+    text-align: center;
+}
+
+.content p {
+    padding: 20px 0;
+    line-height: 2;
+}
+
+.red-box {
+    background-color: #9f0403;
+    color: white;
+}
+
+.red-box h1{
+    color: white;
+}
+
+footer {
+    height: 300px;
+    
+    /* 內容只有一行文字可以使用行高＝高度垂直置中 */
+    line-height: 300px;
+    background-color: #9f0403;
+    
+    /* 顏色 */
+    color: white;
+    
+    /* 文字置中 */
+    text-align: center;
+}
