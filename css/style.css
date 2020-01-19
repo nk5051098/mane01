@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: 3000px;
+}
+
+/* 導覽列 */
+nav {
+    padding: 30px;
+    /* 顯示 靈活 */
+    display: flex;
+    /* 均勻排列每個子元素，首個放起點，最後放終點 */
+    justify-content: space-between;
+    /* 盒型陰影：  左右  上下  模糊  顏色 */
+    box-shadow: 0 5px 10px rgba(36, 175, 98, 0.644);
+}
+
+nav ol li {
+    /* 顯示：行內-區塊 */
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ol li a {
+    color: black;
+    
+    /* 文字裝飾：無(去掉底線) */
+    text-decoration: none;
+}
+
+nav ol li a:hover {
+   
+    /* 滑入效果 */
+    color: brown;
+}
+
+
+#logo {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
