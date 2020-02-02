@@ -5,3 +5,33 @@
     /* 字體 */
     font-family: 微軟正黑體;
 }
+nav {
+    background: #f9c300;
+    display: flex;
+    /* 左右分開 */
+    justify-content: space-between;
+    /* 外距30設定 */
+    padding: 30px;
+}
+#logo img {
+     width: 100px;
+    background: #ffffff;
+     border-radius: 50%;
+    /* 內距 */
+    padding: 10px;
+}
+nav ol li {
+    /* 橫式擺法 */
+    display: inline-block;
+}
+
+nav ol li a {
+    /* 去除文字樣式 */
+    text-decoration: none;
+    /* 字體顏色 */
+    color: #ffffff;
+    /* 字體大小 */
+    font-size: 20px;
+    /* 字體粗細 */
+    font-weight: 900;
+}
