@@ -63,6 +63,10 @@ nav ol li a {
     transform: scale(1.5);
 }
 
+#banner-box {
+    overflow: hidden;
+}
+
 section h1 {
     color: #f9c300;
     font-size: 32px;
